@@ -6,6 +6,10 @@ CrossEntropy:
 - 1-layer seq2seq model(encode padding first):1.18
 - 1-layer seq2seq model(encode padding last):1.16
 
+BLEU-1: 
+- 1-layer seq2seq model(encode padding first):0.7242
+- 1-layer seq2seq model(encode padding last):0.7180
+
 BLEU-4: 
-- 1-layer seq2seq model(encode padding first):0.724
-- 1-layer seq2seq model(encode padding last):0.718
+- 1-layer seq2seq model(encode padding first):0.3747
+- 1-layer seq2seq model(encode padding last):0.3712
