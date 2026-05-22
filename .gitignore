@@ -1,6 +1,5 @@
 *.txt
 .cache/
-wmt16 back/
 checkpoints/
 runs/
-Untitled-1.py
+data_spa_en/
