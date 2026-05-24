@@ -2,14 +2,14 @@
 基于Bahdanau Attention的Seq2Seq模型，用于西班牙语-英语翻译任务，使用pytorch框架实现使用https://www.manythings.org/anki/ 的英语西班牙语数据集训练模型，模型效果如下：
 
 CrossEntropy: 
-- 4-layer seq2seq model(encode padding first):2.36
-- 1-layer seq2seq model(encode padding first):1.18
-- 1-layer seq2seq model(encode padding last):1.16
+- 4-layer GRU model(encode padding first):2.36
+- 1-layer GRU model(encode padding first):1.18
+- 1-layer GRU model(encode padding last):1.16
 
 BLEU-1: 
-- 1-layer seq2seq model(encode padding first):0.7242
-- 1-layer seq2seq model(encode padding last):0.7180
+- 1-layer GRU model(encode padding first):0.7242
+- 1-layer GRU model(encode padding last):0.7180
 
 BLEU-4: 
-- 1-layer seq2seq model(encode padding first):0.3747
-- 1-layer seq2seq model(encode padding last):0.3712
+- 1-layer GRU model(encode padding first):0.3747
+- 1-layer GRU model(encode padding last):0.3712
