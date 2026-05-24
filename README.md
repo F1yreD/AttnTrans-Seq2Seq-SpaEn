@@ -1,5 +1,5 @@
 # AttnTrans-Seq2Seq-SpaEn
-基于Bahdanau Attention的Seq2Seq模型，用于西班牙语-英语翻译任务，使用pytorch框架实现使用https://www.manythings.org/anki/ 的英语西班牙语数据集训练模型，模型效果如下：
+基于Bahdanau Attention的Seq2Seq模型，用于西班牙语-英语翻译任务，使用pytorch框架实现使用https://www.manythings.org/anki/ 的英语西班牙语数据集训练模型（约100000条数据），模型效果如下：
 
 CrossEntropy: 
 - 4-layer GRU model(encode padding first):2.36
